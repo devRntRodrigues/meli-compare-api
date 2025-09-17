@@ -13,7 +13,16 @@ export const PaginationMetaSchema = z
     hasNext: z.boolean(),
     hasPrev: z.boolean(),
   })
-  .openapi('PaginationMeta');
+  .openapi('PaginationMeta', {
+    example: {
+      page: 1,
+      limit: 20,
+      total: 150,
+      totalPages: 8,
+      hasNext: true,
+      hasPrev: false,
+    },
+  });
 
 export const PaginatedItemsResponseSchema = z
   .object({
@@ -40,7 +49,13 @@ export const HealthResponseSchema = z
     timestamp: z.string().datetime(),
     uptime: z.number(),
   })
-  .openapi('HealthResponse');
+  .openapi('HealthResponse', {
+    example: {
+      status: 'ok',
+      timestamp: '2024-01-15T10:30:00Z',
+      uptime: 86400,
+    },
+  });
 
 export const ErrorResponseSchema = z
   .object({
@@ -50,7 +65,15 @@ export const ErrorResponseSchema = z
     detail: z.string().optional(),
     instance: z.string().optional(),
   })
-  .openapi('Error');
+  .openapi('Error', {
+    example: {
+      type: 'ValidationError',
+      title: 'Invalid data provided',
+      status: 400,
+      detail: 'The name field is required',
+      instance: '/items',
+    },
+  });
 
 export type PaginationMeta = z.infer<typeof PaginationMetaSchema>;
 export type PaginatedItemsResponse = z.infer<
