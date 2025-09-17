@@ -137,7 +137,7 @@ export const ItemParamsSchema = z
   .object({
     id: z.string().min(1).openapi({
       description: 'Unique product ID (UUID)',
-      example: '550e8400-e29b-41d4-a716-446655440000',
+      example: '123e4567-e89b-12d3-a456-426614174001',
     }),
   })
   .openapi('ItemParams');
