@@ -1,0 +1,176 @@
+[
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "name": "iPhone 15 Pro",
+    "price": 999.99,
+    "category": "smartphones",
+    "brand": "Apple",
+    "description": "Latest iPhone with A17 Pro chip and titanium design",
+    "features": [
+      "A17 Pro chip",
+      "48MP camera",
+      "Titanium design",
+      "USB-C",
+      "5G"
+    ],
+    "rating": 4.8,
+    "availability": true,
+    "imageUrl": "https://example.com/iphone15pro.jpg",
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-01T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174001",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 1199.99,
+    "category": "smartphones",
+    "brand": "Samsung",
+    "description": "Premium Android smartphone with S Pen",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "200MP camera",
+      "S Pen",
+      "120Hz display",
+      "5G"
+    ],
+    "rating": 4.7,
+    "availability": true,
+    "imageUrl": "https://example.com/galaxys24ultra.jpg",
+    "createdAt": "2024-01-02T10:00:00.000Z",
+    "updatedAt": "2024-01-02T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174002",
+    "name": "MacBook Pro 14",
+    "price": 1999.99,
+    "category": "laptops",
+    "brand": "Apple",
+    "description": "Professional laptop with M3 chip",
+    "features": [
+      "M3 chip",
+      "14-inch Liquid Retina XDR",
+      "16GB RAM",
+      "512GB SSD",
+      "Touch ID"
+    ],
+    "rating": 4.9,
+    "availability": true,
+    "imageUrl": "https://example.com/macbookpro14.jpg",
+    "createdAt": "2024-01-03T10:00:00.000Z",
+    "updatedAt": "2024-01-03T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174003",
+    "name": "Dell XPS 13",
+    "price": 1299.99,
+    "category": "laptops",
+    "brand": "Dell",
+    "description": "Ultra-portable Windows laptop",
+    "features": [
+      "Intel Core i7",
+      "13.4-inch FHD+",
+      "16GB RAM",
+      "512GB SSD",
+      "Fingerprint reader"
+    ],
+    "rating": 4.5,
+    "availability": false,
+    "imageUrl": "https://example.com/dellxps13.jpg",
+    "createdAt": "2024-01-04T10:00:00.000Z",
+    "updatedAt": "2024-01-04T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174004",
+    "name": "AirPods Pro 2",
+    "price": 249.99,
+    "category": "audio",
+    "brand": "Apple",
+    "description": "Wireless earbuds with active noise cancellation",
+    "features": [
+      "Active Noise Cancellation",
+      "Spatial Audio",
+      "H2 chip",
+      "USB-C",
+      "Wireless charging"
+    ],
+    "rating": 4.6,
+    "availability": true,
+    "imageUrl": "https://example.com/airpodspro2.jpg",
+    "createdAt": "2024-01-05T10:00:00.000Z",
+    "updatedAt": "2024-01-05T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174005",
+    "name": "Sony WH-1000XM5",
+    "price": 399.99,
+    "category": "audio",
+    "brand": "Sony",
+    "description": "Premium over-ear headphones with industry-leading noise cancellation",
+    "features": [
+      "30h battery",
+      "Quick Charge",
+      "Multipoint connection",
+      "LDAC",
+      "Speak-to-Chat"
+    ],
+    "rating": 4.7,
+    "availability": true,
+    "imageUrl": "https://example.com/sonyxm5.jpg",
+    "createdAt": "2024-01-06T10:00:00.000Z",
+    "updatedAt": "2024-01-06T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174006",
+    "name": "iPad Air",
+    "price": 599.99,
+    "category": "tablets",
+    "brand": "Apple",
+    "description": "Versatile tablet with M1 chip",
+    "features": [
+      "M1 chip",
+      "10.9-inch display",
+      "Touch ID",
+      "USB-C",
+      "Apple Pencil support"
+    ],
+    "rating": 4.8,
+    "availability": true,
+    "imageUrl": "https://example.com/ipadair.jpg",
+    "createdAt": "2024-01-07T10:00:00.000Z",
+    "updatedAt": "2024-01-07T10:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174007",
+    "name": "Samsung Galaxy Tab S9",
+    "price": 799.99,
+    "category": "tablets",
+    "brand": "Samsung",
+    "description": "Android tablet with S Pen included",
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "11-inch display",
+      "S Pen included",
+      "IP68",
+      "120Hz"
+    ],
+    "rating": 4.4,
+    "availability": true,
+    "imageUrl": "https://example.com/galaxytabs9.jpg",
+    "createdAt": "2024-01-08T10:00:00.000Z",
+    "updatedAt": "2024-01-08T10:00:00.000Z"
+  },
+  {
+    "id": "0a387d84-e2fa-4c9a-bbdb-6a1a45a1b5da",
+    "name": "Iphone Pro Max 20",
+    "price": 1.56,
+    "category": "CallPhone",
+    "brand": "string",
+    "description": "string",
+    "features": [],
+    "rating": 5,
+    "availability": true,
+    "imageUrl": "https://example.com/airpodspro2.jpg",
+    "createdAt": "2025-09-17T00:47:14.046Z",
+    "updatedAt": "2025-09-17T00:47:14.046Z"
+  }
+]

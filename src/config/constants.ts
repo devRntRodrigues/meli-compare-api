@@ -1,0 +1,33 @@
+export enum HttpStatus {
+  _OK = 200,
+  _CREATED = 201,
+  _ACCEPTED = 202,
+  _NO_CONTENT = 204,
+  _BAD_REQUEST = 400,
+  _UNAUTHORIZED = 401,
+  _FORBIDDEN = 403,
+  _NOT_FOUND = 404,
+  _CONFLICT = 409,
+  _UNPROCESSABLE_ENTITY = 422,
+  _INTERNAL_ERROR = 500,
+  _NOT_IMPLEMENTED = 501,
+  _SERVICE_UNAVAILABLE = 503,
+  _TOO_MANY_REQUESTS = 429,
+}
+
+export const httpMessages: Record<HttpStatus, string> = {
+  [HttpStatus._OK]: 'Success',
+  [HttpStatus._CREATED]: 'Created',
+  [HttpStatus._ACCEPTED]: 'Accepted',
+  [HttpStatus._NO_CONTENT]: 'No Content',
+  [HttpStatus._BAD_REQUEST]: 'Bad Request',
+  [HttpStatus._UNAUTHORIZED]: 'Unauthorized',
+  [HttpStatus._FORBIDDEN]: 'Forbidden',
+  [HttpStatus._NOT_FOUND]: 'Not Found',
+  [HttpStatus._CONFLICT]: 'Conflict',
+  [HttpStatus._UNPROCESSABLE_ENTITY]: 'Unprocessable Entity',
+  [HttpStatus._INTERNAL_ERROR]: 'Internal Server Error',
+  [HttpStatus._NOT_IMPLEMENTED]: 'Not Implemented',
+  [HttpStatus._SERVICE_UNAVAILABLE]: 'Service Unavailable',
+  [HttpStatus._TOO_MANY_REQUESTS]: 'Too Many Requests',
+};
