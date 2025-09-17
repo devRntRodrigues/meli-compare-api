@@ -40,6 +40,26 @@
     "updatedAt": "2024-01-02T10:00:00.000Z"
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614171305",
+    "name": "Xiomi 14 Pro",
+    "price": 1199.99,
+    "category": "smartphones",
+    "brand": "Xiomi",
+    "description": "Premium Android smartphone with S Pen",
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "200MP camera",
+      "S Pen",
+      "120Hz display",
+      "5G"
+    ],
+    "rating": 4.7,
+    "availability": true,
+    "imageUrl": "https://example.com/xiomi14pro.jpg",
+    "createdAt": "2024-01-02T10:00:00.000Z",
+    "updatedAt": "2024-01-02T10:00:00.000Z"
+  },
+  {
     "id": "123e4567-e89b-12d3-a456-426614174002",
     "name": "MacBook Pro 14",
     "price": 1999.99,
