@@ -213,16 +213,8 @@ GET /compare?ids=uuid1,uuid2,uuid3
 
 ### Test Types
 
-1. **Unit Tests** - Individual component testing
-2. **Integration Tests** - API endpoint testing
-3. **End-to-End Tests** - Complete workflow testing
-
-### Test Coverage
-
-- Controllers - Business logic validation
-- Services - Data processing verification
-- Middlewares - Request/response handling
-- Schemas - Input validation testing
+1. **Integration Tests** - API endpoint testing
+2. **End-to-End Tests** - Complete workflow testing
 
 ### Running Tests
 
@@ -230,15 +222,9 @@ GET /compare?ids=uuid1,uuid2,uuid3
 # All tests
 pnpm test
 
-# Watch mode
-pnpm test:watch
-
 # Coverage report
-pnpm test:coverage
+pnpm test:ci
 
-# Specific test suites
-pnpm test:integration
-pnpm test:e2e
 ```
 
 ## 🏗️ Key Architectural Decisions
@@ -311,14 +297,6 @@ For this project, I leveraged ChatGPT and Cursor IDE to speed up development and
 PORT=3000
 NODE_ENV=production
 ```
-
-### Production Considerations
-
-- Process management (PM2 recommended)
-- Reverse proxy (Nginx)
-- SSL termination
-- Log aggregation
-- Health monitoring
 
 ## 📝 API Response Format
 
